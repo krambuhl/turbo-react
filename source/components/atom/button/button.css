@@ -1,0 +1,32 @@
+.button {
+	display: inline-block;
+	padding: 0.5em 1em;
+
+	background-color: color(purple-mid);
+	color: color(light);
+	text-decoration: none;
+
+	&:hover {
+		background-color: color(purple-mid--alt);
+	}
+}
+
+.button--cta {
+	border: 2px solid color(purple-mid);
+	background-color: transparent;
+	color: color(purple-mid);
+
+	&:hover {
+		background-color: color(purple-mid);
+		color: color(light);
+	}
+}
+
+.button--ondark {
+  background-color: color(light);
+  color: color(dark);
+
+  &:hover {
+    background-color: color(offlight);
+  }
+}
